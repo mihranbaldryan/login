@@ -1,0 +1,230 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.logform {
+  border: 3px solid #f1f1f1;
+}
+
+.logform {
+  /*  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  } */
+  /* Change styles for span and cancel button on extra small screens */
+}
+.logform input[type=text], .logform input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.logform button {
+  background-color: #008CBA;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.logform button:hover {
+  opacity: 0.8;
+}
+.logform .imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+.logform .container {
+  padding: 16px;
+}
+.logform span.psw {
+  float: right;
+  padding-top: 16px;
+}
+@media screen and (max-width: 300px) {
+  .logform span.psw {
+    display: block;
+    float: none;
+  }
+  .logform .cancelbtn {
+    width: 100%;
+  }
+}
+
+.regform {
+  /* Full-width input fields */
+  /* Overwrite default styles of hr */
+  /* Set a style for the submit button */
+  /* Add a blue text color to links */
+  /* Set a grey background color and center the text of the "sign in" section */
+}
+.regform .container {
+  box-sizing: border-box;
+  padding: 16px;
+  background-color: white;
+}
+.regform input[type=text], .regform input[type=password], .regform select {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+.regform input[type=text]:focus, .regform input[type=password]:focus {
+  box-sizing: border-box;
+  background-color: #ddd;
+  outline: none;
+}
+.regform hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+.regform .registerbtn {
+  box-sizing: border-box;
+  background-color: #008CBA;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.regform .registerbtn:hover {
+  opacity: 1;
+}
+.regform a {
+  color: dodgerblue;
+}
+.regform .signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#div1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#div1 .pPhoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#div1 .account {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#div1 .account img {
+  width: 250px;
+  height: auto;
+}
+
+#div1 .account table th, td {
+  width: 100px;
+  height: 30px;
+  text-align: left;
+  font-size: 22px;
+  color: #008CBA;
+}
+
+#div1 .pPhoto #demo1 form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#div1 .pPhoto #demo1 form .container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#div1 .pPhoto #demo1 form input[type=text] {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+#div1 .pPhoto #demo1 button {
+  width: 120px;
+  margin: 5px;
+  background-color: #008CBA;
+  color: white;
+  padding: 14px 20px;
+}
+
+#div1 .pPhoto #demo1 button:hover {
+  width: 120px;
+  background-color: #0b3a49;
+}
+
+#div1 .pPhoto #demo2 {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#div1 .pPhoto #demo2 iframe {
+  width: 50%;
+  height: 50vh;
+}
+
+@media screen and (max-width: 480px) {
+  #div1 .pPhoto #demo2 iframe {
+    width: 90%;
+    height: 30vh;
+  }
+}
+#div1 .pPhoto p {
+  font-size: 20px;
+}
+
+#divbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.button {
+  margin: 20px;
+  border: none;
+  width: 170px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #008CBA;
+}
+
+.button:hover {
+  background-color: #0b3a49;
+}
+
+/*# sourceMappingURL=style.css.map */
